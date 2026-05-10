@@ -14,7 +14,8 @@ export default function Navbar() {
   const links = [
     { to: '/dashboard', label: 'Home' },
     { to: '/trips', label: 'My Trips' },
-    { to: '/city-search', label: 'Explore' },
+    { to: '/city-search', label: 'Cities' },
+    { to: '/activity-search', label: 'Activities' },
   ]
 
   return (
