@@ -39,6 +39,14 @@ export default function ItineraryView() {
             ))}
             <button className="btn btn-outline" style={{ fontSize: '13px', padding: '7px 14px' }}
               onClick={() => navigate(`/itinerary-builder/${trip.id}`)}>Edit</button>
+            <button className="btn btn-primary" style={{ fontSize: '13px', padding: '7px 14px' }}
+              onClick={() => navigate(`/budget/${trip.id}`)}>💰 Budget</button>
+            <button className="btn btn-outline" style={{ fontSize: '13px', padding: '7px 14px' }}
+              onClick={() => navigate(`/packing/${trip.id}`)}>🎒 Packing</button>
+            <button className="btn btn-outline" style={{ fontSize: '13px', padding: '7px 14px' }}
+              onClick={() => navigate(`/notes/${trip.id}`)}>📓 Notes</button>
+            <button className="btn btn-outline" style={{ fontSize: '13px', padding: '7px 14px' }}
+              onClick={() => navigate(`/shared/${trip.id}`)}>🌐 Share</button>
           </div>
         </div>
 
