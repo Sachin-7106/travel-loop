@@ -1,4 +1,4 @@
-// Member 3 - Search & Budget
+// member 3 - Search & Budget
 import { useParams, useNavigate } from 'react-router-dom'
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 import { useApp } from '../context/AppContext'

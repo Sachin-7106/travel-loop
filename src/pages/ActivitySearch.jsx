@@ -1,4 +1,4 @@
-// Member 3 - Search & Budget
+// member 3 - Search & Budget
 import { useState } from 'react'
 import Navbar from '../components/Navbar'
 
