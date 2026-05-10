@@ -1,4 +1,4 @@
-// Member 4 - Utils & Sharing
+// member 4 - Utils & Sharing
  
 import { useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
