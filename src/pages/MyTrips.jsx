@@ -1,3 +1,4 @@
+// Member 2 - Trip Management
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import Navbar from '../components/Navbar'
